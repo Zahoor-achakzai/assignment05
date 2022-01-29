@@ -14,7 +14,7 @@ public:
 	double getcnic() {
 		return cnic;
 	}
-	double getmbno()
+	double getmobileno()
 	{
 		return mbno;
 	}
@@ -34,7 +34,7 @@ public:
 	{
 		cnic = c;
 	}
-	void setmbno(double n)
+	void setmobileno(double n)
 	{
 		mbno = n;
 	}
@@ -54,7 +54,7 @@ void main()
 	obj.setname("Zahoor Ahmed");
 	obj.setaddress("XYZ");
 	obj.setcnic(23656622345);
-	obj.setmbno(023564546);
+	obj.setmobileno(023564546);
 	obj.disp();
 	system("pause");
 }
