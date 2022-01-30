@@ -56,5 +56,9 @@ void main()
 	obj.setcnic(23656622345);
 	obj.setmobileno(023564546);
 	obj.disp();
+	obj.setname("tajamul");
+	obj.setcnic(34475643);
+	obj.setaddress("abs");
+	obj.setmobileno(21453654);
 	system("pause");
 }
