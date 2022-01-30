@@ -36,6 +36,11 @@ class person:contactinfo
 {
 	string name;
 	double cnic;
+	person()
+	{
+		name = " ";
+		cnic = 0;
+	}
 	string getname() {
 		return name;
 	}
