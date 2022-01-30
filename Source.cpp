@@ -61,9 +61,16 @@ void main()
 	obj.setaddress("XYZ");
 	obj.setmobileno(023564546);
 	obj.disp();
+<<<<<<< HEAD
 	obj = new person();
 	obj.setname("Zahoor Ahmed");
 	obj.setcnic(23656622345);
 	obj.disp();
+=======
+	obj.setname("tajamul");
+	obj.setcnic(34475643);
+	obj.setaddress("abs");
+	obj.setmobileno(21453654);
+>>>>>>> c5d06e89a712fdde768ea06b23580baf27ec2be0
 	system("pause");
 }
