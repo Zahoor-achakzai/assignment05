@@ -31,6 +31,7 @@ public:
 	}
 
 };
+<<<<<<< HEAD
 class person:contactinfo
 {
 	string name;
@@ -58,9 +59,16 @@ class person:contactinfo
 void main()
 {
 	contactinfo obj;
+=======
+void adddata(contactinfo obj)
+{
+	
+	obj.setname("Zahoor Ahmed");
+>>>>>>> e191b54ae865a9828527fedf17617a9ce33bf702
 	obj.setaddress("XYZ");
 	obj.setmobileno(023564546);
 	obj.disp();
+<<<<<<< HEAD
 <<<<<<< HEAD
 	obj = new person();
 	obj.setname("Zahoor Ahmed");
@@ -72,5 +80,12 @@ void main()
 	obj.setaddress("abs");
 	obj.setmobileno(21453654);
 >>>>>>> c5d06e89a712fdde768ea06b23580baf27ec2be0
+=======
+}
+void main()
+{
+	contactinfo obj;
+	adddata(obj);
+>>>>>>> e191b54ae865a9828527fedf17617a9ce33bf702
 	system("pause");
 }
