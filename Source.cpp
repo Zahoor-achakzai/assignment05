@@ -48,17 +48,18 @@ public:
 	}
 
 };
-void main()
+void adddata(contactinfo obj)
 {
-	contactinfo obj;
+	
 	obj.setname("Zahoor Ahmed");
 	obj.setaddress("XYZ");
 	obj.setcnic(23656622345);
 	obj.setmobileno(023564546);
 	obj.disp();
-	obj.setname("tajamul");
-	obj.setcnic(34475643);
-	obj.setaddress("abs");
-	obj.setmobileno(21453654);
+}
+void main()
+{
+	contactinfo obj;
+	adddata(obj);
 	system("pause");
 }
